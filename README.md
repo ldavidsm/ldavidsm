@@ -35,7 +35,7 @@ Lo que mejor se me da: diseñar la API primero, exprimir consultas SQL lentas ha
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 
@@ -53,7 +53,7 @@ Lo que mejor se me da: diseñar la API primero, exprimir consultas SQL lentas ha
 
 | Proyecto | Descripción | Stack |
 |---|---|---|
-| **[proyectoMedico](https://github.com/ldavidsm/proyectoMedico)** | Plataforma de gestión clínica con historial de pacientes y agenda | TypeScript · React |
+| **[proyectoMedico](https://github.com/ldavidsm/proyectoMedico)** | Plataforma donde los médicos encuentran e inscriben en programas de formación clínica internacional|
 | **[sistemagestionpy](https://github.com/ldavidsm/sistemagestionpy)** | Sistema de gestión con capa de datos en PostgreSQL | Python |
 | **[pythonchat](https://github.com/ldavidsm/pythonchat)** | Chat en tiempo real sobre sockets | Python · HTML |
 | **[portfolio](https://github.com/ldavidsm/portfolio)** | Portfolio personal desplegado en Vercel | TypeScript · React |
