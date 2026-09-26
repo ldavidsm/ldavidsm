@@ -74,12 +74,12 @@ class Developer:
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <!--<td width="50%" valign="top">
       <h3>🏛️ <a href="https://github.com/ldavidsm/fastapi-clean-architecture">FastAPI Clean Architecture</a></h3>
       Plantilla lista para arrancar APIs con capas bien separadas: entidades, casos de uso, puertos, presentadores, controladores y repositorio async con SQLAlchemy. <code>import-linter</code> rompe el CI si alguien se salta la regla de dependencias.
       <br /><br />
       <code>FastAPI</code> <code>SQLAlchemy 2.0</code> <code>Alembic</code> <code>pytest</code>
-    </td>
+    </td>-->
     <td width="50%" valign="top">
       <h3>🩺 <a href="https://github.com/ldavidsm/proyectoMedico">proyectoMedico</a></h3>
       Plataforma donde los médicos encuentran y se inscriben en programas de formación clínica internacional.
