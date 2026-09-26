@@ -1,75 +1,157 @@
-<h1 align="center">Luis David Senra Mirabal</h1>
+<div align="center">
 
-<p align="center">
-  <b>Backend Python & Data</b> · FastAPI · PostgreSQL · Power BI<br>
-  Ingeniero en Ciencias Informáticas — Madrid, España
+<img src="./assets/header.svg" width="100%" alt="Luis David Senra Mirabal — Backend Python &amp; Data · FastAPI · PostgreSQL" />
+
+<a href="https://luissenramirabal.vercel.app/">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3200&pause=900&color=FFD43B&center=true&vCenter=true&width=640&lines=Backends+que+aguantan+en+producci%C3%B3n+%F0%9F%90%8D;Python+%C2%B7+FastAPI+%C2%B7+PostgreSQL+%C2%B7+Power+BI;API-first+%C2%B7+Clean+Architecture+%C2%B7+async;De+consultas+lentas+a+milisegundos+%E2%9A%A1" alt="Typing SVG" />
+</a>
+
+<p>
+  <a href="https://luissenramirabal.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/luis-david-senra-mirabal-483837296/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:lsenramirabal@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
-<p align="center">
-  <a href="https://www.luissenramirabal.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio">
-  </a>
-  <a href="https://www.linkedin.com/in/luis-david-senra-mirabal-483837296/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="mailto:lsenramirabal@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>
-</p>
+<img src="https://komarev.com/ghpvc/?username=ldavidsm&label=Visitas&color=3776AB&style=flat-square" alt="Visitas al perfil" />
+<img src="https://img.shields.io/github/followers/ldavidsm?label=Seguidores&style=flat-square&color=009688" alt="Seguidores" />
+
+</div>
 
 ---
 
-### Sobre mí
+## 🐍 Sobre mí
 
-Construyo backends y pipelines de datos que aguantan en producción. Vengo de dos años administrando y optimizando las bases de datos del ecosistema **DecidimOS**, y actualmente desarrollo APIs REST y automatizaciones con IA en **HealthLearner**.
+Soy **ingeniero en Ciencias Informáticas** y construyo **backends y pipelines de datos que aguantan en producción**. Vengo de dos años administrando y optimizando las bases de datos del ecosistema **DecidimOS**, y ahora desarrollo APIs REST y automatizaciones con IA en **HealthLearner**.
 
-Lo que mejor se me da: diseñar la API primero, exprimir consultas SQL lentas hasta dejarlas en milisegundos, y convertir datos crudos en algo que alguien pueda usar para decidir.
+```python
+from dataclasses import dataclass, field
 
----
 
-### Stack
+@dataclass(frozen=True)
+class Developer:
+    name: str = "Luis David Senra Mirabal"
+    role: str = "Backend Python & Data"
+    base: str = "Madrid, España"
 
-**Backend & Datos**
+    backend: tuple[str, ...] = ("Python", "FastAPI", "SQLAlchemy", "Pydantic")
+    data: tuple[str, ...] = ("PostgreSQL", "MySQL", "Power BI", "Grafana")
+    practices: tuple[str, ...] = ("API-first", "Clean Architecture", "async", "SQL tuning")
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+    motto: str = "Si la consulta tarda más que un café, no está terminada."
+```
 
-**Frontend & Herramientas**
+- ⚡ **Lo que mejor se me da:** diseñar la API primero, exprimir consultas SQL lentas hasta dejarlas en milisegundos y convertir datos crudos en algo con lo que se pueda decidir
+- 🏛️ **Acabo de publicar** [**FastAPI Clean Architecture**](https://github.com/ldavidsm/fastapi-clean-architecture): plantilla con entidades, casos de uso, puertos y presentadores, con la regla de dependencias comprobada en CI
+- 💬 **Pregúntame sobre** FastAPI, optimización de PostgreSQL, modelado de datos o dashboards en Power BI
 
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+## 🧰 Stack
 
----
+<table>
+  <tr>
+    <td align="center" width="140"><b>Backend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=py,fastapi&perline=10" alt="Python, FastAPI" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Datos</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=postgres,mysql,grafana&perline=10" alt="PostgreSQL, MySQL, Grafana" /><br />
+      <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Frontend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=nextjs,react,ts&perline=10" alt="Next.js, React, TypeScript" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>DevOps &amp; automatización</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=docker,git,github&perline=10" alt="Docker, Git, GitHub" /><br />
+      <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" />
+    </td>
+  </tr>
+</table>
 
-### Proyectos destacados
+## 🚀 Proyectos destacados
 
-| Proyecto | Descripción | Stack |
-|---|---|---|
-| **[proyectoMedico](https://github.com/ldavidsm/proyectoMedico)** | Plataforma donde los médicos encuentran e inscriben en programas de formación clínica internacional|
-| **[sistemagestionpy](https://github.com/ldavidsm/sistemagestionpy)** | Sistema de gestión con capa de datos en PostgreSQL | Python |
-| **[pythonchat](https://github.com/ldavidsm/pythonchat)** | Chat en tiempo real sobre sockets | Python · HTML |
-| **[portfolio](https://github.com/ldavidsm/portfolio)** | Portfolio personal desplegado en Vercel | TypeScript · React |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏛️ <a href="https://github.com/ldavidsm/fastapi-clean-architecture">FastAPI Clean Architecture</a></h3>
+      Plantilla lista para arrancar APIs con capas bien separadas: entidades, casos de uso, puertos, presentadores, controladores y repositorio async con SQLAlchemy. <code>import-linter</code> rompe el CI si alguien se salta la regla de dependencias.
+      <br /><br />
+      <code>FastAPI</code> <code>SQLAlchemy 2.0</code> <code>Alembic</code> <code>pytest</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🩺 <a href="https://github.com/ldavidsm/proyectoMedico">proyectoMedico</a></h3>
+      Plataforma donde los médicos encuentran y se inscriben en programas de formación clínica internacional.
+      <br /><br />
+      <code>Python</code> <code>FastAPI</code> <code>Next.js</code>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <h3>🗄️ <a href="https://github.com/ldavidsm/sistemagestionpy">sistemagestionpy</a></h3>
+      Sistema de gestión con la capa de datos sobre PostgreSQL.
+      <br /><br />
+      <code>Python</code> <code>PostgreSQL</code>
+    </td>
+    <td valign="top">
+      <h3>💬 <a href="https://github.com/ldavidsm/pythonchat">pythonchat</a></h3>
+      Chat en tiempo real sobre sockets, sin frameworks de por medio.
+      <br /><br />
+      <code>Python</code> <code>Sockets</code> <code>HTML</code>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" colspan="2">
+      <h3>🌐 <a href="https://github.com/ldavidsm/portfolio">portfolio</a></h3>
+      Portfolio personal desplegado en Vercel.
+      <br /><br />
+      <code>TypeScript</code> <code>React</code> <code>Vercel</code>
+    </td>
+  </tr>
+</table>
 
----
+## 📊 En números
 
-### Actividad
+<div align="center">
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ldavidsm&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&hide=issues" alt="Estadísticas de GitHub">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ldavidsm&layout=compact&theme=github_dark&hide_border=true&langs_count=6" alt="Lenguajes más usados">
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ldavidsm/ldavidsm/main/profile-summary-card-output/github_dark/0-profile-details.svg" />
+  <img src="https://raw.githubusercontent.com/ldavidsm/ldavidsm/main/profile-summary-card-output/github/0-profile-details.svg" alt="Resumen del perfil" width="100%" />
+</picture>
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ldavidsm/ldavidsm/main/profile-summary-card-output/github_dark/1-repos-per-language.svg" />
+  <img src="https://raw.githubusercontent.com/ldavidsm/ldavidsm/main/profile-summary-card-output/github/1-repos-per-language.svg" alt="Repos por lenguaje" width="49%" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ldavidsm/ldavidsm/main/profile-summary-card-output/github_dark/2-most-commit-language.svg" />
+  <img src="https://raw.githubusercontent.com/ldavidsm/ldavidsm/main/profile-summary-card-output/github/2-most-commit-language.svg" alt="Lenguajes con más commits" width="49%" />
+</picture>
 
-<p align="center">
-  <i>Abierto a oportunidades en backend Python y datos.</i><br>
-  <b>lsenramirabal@gmail.com</b> · Madrid
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=ldavidsm&hide_border=true&background=00000000&locale=es&ring=FFD43B&fire=009688&currStreakLabel=FFD43B&stroke=3776AB&sideNums=E2E8F0&currStreakNum=E2E8F0&sideLabels=94A3B8&dates=64748B" />
+  <img src="https://streak-stats.demolab.com?user=ldavidsm&hide_border=true&background=00000000&locale=es&ring=3776AB&fire=009688&currStreakLabel=3776AB" alt="Racha de contribuciones" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ldavidsm/ldavidsm/output/python-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/ldavidsm/ldavidsm/output/python-snake.svg" alt="Una pitón comiéndose mis contribuciones" width="100%" />
+</picture>
+
+<sub>Sí, la serpiente es una pitón. Obviamente. 🐍</sub>
+
+</div>
+
+## 💬 ¿Hablamos?
+
+Abierto a oportunidades en **backend Python y datos**. Y si solo quieres hablar de FastAPI, índices en PostgreSQL o por qué tu dashboard tarda 40 segundos en cargar, también.
+
+<div align="center">
+
+<a href="https://luissenramirabal.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/luis-david-senra-mirabal-483837296/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:lsenramirabal@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+
+</div>
