@@ -1,6 +1,5 @@
 <div align="center">
 
-<img src="./assets/header.svg" width="100%" alt="Luis David Senra Mirabal — Backend Python &amp; Data · FastAPI · PostgreSQL" />
 
 <a href="https://luissenramirabal.vercel.app/">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3200&pause=900&color=FFD43B&center=true&vCenter=true&width=640&lines=Backends+que+aguantan+en+producci%C3%B3n+%F0%9F%90%8D;Python+%C2%B7+FastAPI+%C2%B7+PostgreSQL+%C2%B7+Power+BI;API-first+%C2%B7+Clean+Architecture+%C2%B7+async;De+consultas+lentas+a+milisegundos+%E2%9A%A1" alt="Typing SVG" />
