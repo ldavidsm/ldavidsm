@@ -40,8 +40,8 @@ class Developer:
 ```
 
 - ⚡ **Lo que mejor se me da:** diseñar la API primero, exprimir consultas SQL lentas hasta dejarlas en milisegundos y convertir datos crudos en algo con lo que se pueda decidir
-- 🏛️ **Acabo de publicar** [**FastAPI Clean Architecture**](https://github.com/ldavidsm/fastapi-clean-architecture): plantilla con entidades, casos de uso, puertos y presentadores, con la regla de dependencias comprobada en CI
-- 💬 **Pregúntame sobre** FastAPI, optimización de PostgreSQL, modelado de datos o dashboards en Power BI
+<!-- 🏛️ **Acabo de publicar** [**FastAPI Clean Architecture**](https://github.com/ldavidsm/fastapi-clean-architecture): plantilla con entidades, casos de uso, puertos y presentadores, con la regla de dependencias comprobada en CI-->
+- 💬 **Pregúntame sobre** FastAPI, optimización de PostgreSQL, modelado de datos o dashboards.
 
 ## 🧰 Stack
 
