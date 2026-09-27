@@ -74,6 +74,15 @@ class Developer:
 
 <table>
   <tr>
+    <td width="50%" valign="top">
+      <h3>📊 <a href="https://github.com/ldavidsm/pytest-querycount">pytest-querycount</a></h3>
+      <a href="https://pypi.org/project/pytest-querycount/"><img src="https://img.shields.io/pypi/v/pytest-querycount?style=flat-square&color=3776AB&label=PyPI" alt="PyPI" /></a>
+      <a href="https://pypi.org/project/pytest-querycount/"><img src="https://img.shields.io/pypi/dm/pytest-querycount?style=flat-square&color=009688&label=descargas" alt="Descargas" /></a>
+      <br /><br />
+      Plugin publicado en PyPI que convierte un problema de rendimiento en un test rojo: hace fallar un test que lanza más consultas SQL de las debidas, detecta el patrón N+1 agrupando las consultas por forma, y encuentra índices ausentes en PostgreSQL aunque la tabla de pruebas tenga ocho filas.
+      <br /><br />
+      <code>pytest</code> <code>SQLAlchemy 2.x</code> <code>PostgreSQL</code> <code>asyncio</code>
+    </td>
     <!--<td width="50%" valign="top">
       <h3>🏛️ <a href="https://github.com/ldavidsm/fastapi-clean-architecture">FastAPI Clean Architecture</a></h3>
       Plantilla lista para arrancar APIs con capas bien separadas: entidades, casos de uso, puertos, presentadores, controladores y repositorio async con SQLAlchemy. <code>import-linter</code> rompe el CI si alguien se salta la regla de dependencias.
