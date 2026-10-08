@@ -20,7 +20,7 @@
 
 ## 🐍 Sobre mí
 
-Soy **ingeniero en Ciencias Informáticas** y construyo **backends y pipelines de datos que aguantan en producción**. Vengo de dos años administrando y optimizando las bases de datos del ecosistema **DecidimOS**, y ahora desarrollo APIs REST y automatizaciones con IA en **HealthLearner**.
+Soy **ingeniero en Ciencias Informáticas** y construyo **backends y pipelines de datos que aguantan en producción**. Vengo de dos años administrando y optimizando las bases de datos del ecosistema **DecidimOS**, y ahora desarrollo APIs REST y automatizaciones con IA.
 
 ```python
 from dataclasses import dataclass, field
